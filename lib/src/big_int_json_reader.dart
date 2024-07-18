@@ -1,6 +1,6 @@
 import 'package:jsontool/jsontool.dart';
 
-class BigIntJsonReader
+base class BigIntJsonReader
     extends JsonSinkProcessor<JsonReader<StringSlice>, JsonWriter<Object?>> {
   final List<String> keys;
 

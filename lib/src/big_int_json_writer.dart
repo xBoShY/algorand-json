@@ -1,6 +1,6 @@
 import 'package:jsontool/jsontool.dart';
 
-class BigIntJsonWriter
+base class BigIntJsonWriter
     extends JsonSinkProcessor<JsonReader<Object?>, JsonWriter<String>> {
   BigIntJsonWriter(StringSink sink, String? indent)
       : super(jsonStringWriter(sink, indent: indent));
